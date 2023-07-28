@@ -1,7 +1,7 @@
 {
   "name": "phicorp/moment",
   "description": "A tool for easier working with date and time for PHP language",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -19,7 +19,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Maya\\": "src/Moment/"
+      "Moment\\": "src/Moment/"
     },
     "files": [
       "src/Moment/momentHelper.php"
