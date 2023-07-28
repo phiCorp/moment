@@ -243,7 +243,34 @@ class Moment
     {
         return $this->datetime->format('z') + 1;
     }
-
+    public function year()
+    {
+        return (int) $this->datetime->format('Y');
+    }
+    public function month()
+    {
+        return (int) $this->datetime->format('n');
+    }
+    public function day()
+    {
+        return (int) $this->datetime->format('j');
+    }
+    public function hour()
+    {
+        return (int) $this->datetime->format('G');
+    }
+    public function minute()
+    {
+        return (int) $this->datetime->format('i');
+    }
+    public function second()
+    {
+        return (int) $this->datetime->format('s');
+    }
+    public function micro()
+    {
+        return (int) $this->datetime->format('u');
+    }
     public function toArray()
     {
         return [
