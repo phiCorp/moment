@@ -6,15 +6,19 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit3ba7cd2dca4bb131982f3ada3dffe0a9
 {
+    public static $files = array (
+        'da1c243f4ea9f373d78c6d48e2508711' => __DIR__ . '/../..' . '/src/Moment/momentHelper.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'Maya\\' => 5,
+            'Moment\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Maya\\' => 
+        'Moment\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Moment',
         ),

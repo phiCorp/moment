@@ -1,6 +1,6 @@
 <?php
 
-use MOment\Moment;
+use Moment\Moment;
 
 function now($timezone = null)
 {

@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Maya\\' => array($baseDir . '/src/Moment'),
+    'Moment\\' => array($baseDir . '/src/Moment'),
 );
