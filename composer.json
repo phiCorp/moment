@@ -1,0 +1,28 @@
+{
+  "name": "phicorp/moment",
+  "description": "A tool for easier working with date and time for PHP language",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fibo",
+      "email": "thephibonacci@gmail.com"
+    }
+  ],
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "phi",
+    "Maya"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Maya\\": "src/Moment/"
+    },
+    "files": [
+      "src/Moment/momentHelper.php"
+    ]
+  }
+}
