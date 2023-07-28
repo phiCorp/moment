@@ -1,6 +1,6 @@
 <?php
 
-use Maya\Support\Moment;
+use Maya\Moment\Moment;
 
 function now($timezone = null)
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maya\Support;
+namespace Maya\Moment;
 
 use DateInterval;
 use DateTime;
